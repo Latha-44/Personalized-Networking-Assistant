@@ -13,6 +13,14 @@ you review your history of past suggestions.
 - Scalable backend built with FastAPI
 - Stores user interaction history using SQLite
 
+- ## 🚀 Features
+- Generate personalized conversation starters based on user interests  
+- Extract key themes using DistilBERT model  
+- Generate natural language responses using GPT-2  
+- Perform real-time fact-checking using Wikipedia API  
+- Store user interaction history using SQLite database  
+- Interactive and user-friendly interface with Streamlit
+
 **Stack:** FastAPI (backend) · Streamlit (frontend) · DistilBERT (theme
 extraction) · GPT-2 (starter generation) · SQLite (storage) · pytest (tests)
 
