@@ -1,4 +1,5 @@
 # Personalized Networking Assistant
+🚀 AI-powered networking assistant for generating smart conversation starters and real-time fact-checking.
 
 ## 📌 Description
 An AI-powered web app that generates tailored conversation starters for
