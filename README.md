@@ -1,8 +1,17 @@
 # Personalized Networking Assistant
 
+## 📌 Description
 An AI-powered web app that generates tailored conversation starters for
 networking events, fact-checks talking points against Wikipedia, and lets
 you review your history of past suggestions.
+
+## 🌟 Key Highlights
+- AI-powered conversation generation using GPT-2
+- Theme extraction using DistilBERT
+- Real-time fact-checking with Wikipedia API
+- Interactive web interface using Streamlit
+- Scalable backend built with FastAPI
+- Stores user interaction history using SQLite
 
 **Stack:** FastAPI (backend) · Streamlit (frontend) · DistilBERT (theme
 extraction) · GPT-2 (starter generation) · SQLite (storage) · pytest (tests)
@@ -172,3 +181,10 @@ pytest backend/tests -v -m "not slow"
 | GPT-2 Text Generation | `nlp_service.generate_conversation_starters` |
 | Fact Verification Module + Wikipedia Search API | `factcheck_service.fact_check` |
 | Local Data Store (User Profiles, Interaction Logs) | `database.py` (SQLite) |
+
+## 👤 Author
+
+**Latha**  
+GitHub: https://github.com/Latha-44  
+
+Passionate about building AI-driven applications and exploring modern web technologies.Focused on developing scalable solutions using Python, FastAPI, and machine learning models.
